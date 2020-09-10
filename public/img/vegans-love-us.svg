@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1109 1152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(8.33333,0,0,8.33333,952.515,184.377)">
+        <path d="M0,90.562L0.008,90.573C-9.011,100.525 -7.527,109.71 -5.801,114.363C-5.414,115.405 -6.492,116.362 -7.502,115.897C-20.194,110.05 -34.832,110.083 -42.473,110.676C-42.64,110.69 -42.791,110.682 -42.953,110.687C-63.05,112.159 -83.696,104.563 -98.209,87.814C-117.884,65.108 -119.696,31.468 -102.664,6.718C-97.448,-0.861 -91.065,-6.857 -84.024,-11.432C-85.732,-5.995 -86.252,-0.126 -85.359,5.748C-84.106,-5.092 -77.384,-14.857 -66.826,-19.255C-66.325,-19.464 -65.817,-19.626 -65.311,-19.796C-43.18,-25.8 -18.543,-20.205 -1.065,-2.918C24.863,22.724 25.267,64.405 0,90.562" style="fill:rgb(30,30,28);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(8.33333,0,0,8.33333,-1172.49,-3950.79)">
+        <text x="168.607px" y="571.44px" style="font-family:'Hamilton-Light', 'Hamilton Light';font-weight:500;font-size:36.01px;fill:white;">L<tspan x="178.726px 191.474px " y="571.44px 571.44px ">OV</tspan>E US!</text>
+    </g>
+    <g transform="matrix(8.33333,0,0,8.33333,-1172.49,-3950.79)">
+        <text x="156.952px" y="544.64px" style="font-family:'Hamilton-Bold', 'Hamilton';font-weight:700;font-size:33.48px;fill:white;">VE<tspan x="191.537px " y="544.64px ">G</tspan>ANS</text>
+    </g>
+</svg>

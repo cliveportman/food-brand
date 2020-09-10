@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1201 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(8.33333,0,0,8.33333,371.184,79.5346)">
+        <path d="M0,128.979L-0.007,128.991C-13.614,123.873 -22.271,129.02 -26.267,132.61C-27.162,133.414 -28.555,132.709 -28.488,131.508C-27.652,116.405 -33.51,101.681 -37.147,94.227C-37.228,94.063 -37.279,93.909 -37.35,93.748C-46.827,74.102 -47.396,50.296 -36.31,29.022C-21.281,0.182 11.861,-15.027 43.554,-7.73C53.259,-5.496 61.835,-1.456 69.242,3.812C63.089,4.256 56.974,6.068 51.416,9.304C62.827,6.251 75.331,9.134 83.96,18.012C84.369,18.433 84.735,18.879 85.107,19.322C99.957,39.211 104.127,66.239 93.681,90.711C78.183,127.015 36.386,144.006 0,128.979" style="fill:rgb(30,30,28);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(8.33333,0,0,8.33333,-418.046,-2816.24)">
+        <text x="76.095px" y="428.669px" style="font-family:'Hamilton-Bold', 'Hamilton';font-weight:700;font-size:26.495px;fill:white;">PR<tspan x="103.835px 117.427px " y="428.669px 428.669px ">OT</tspan>EIN</text>
+    </g>
+    <g transform="matrix(8.33333,0,0,8.33333,-418.046,-2816.24)">
+        <text x="76.291px" y="407.369px" style="font-family:'Hamilton-Light', 'Hamilton Light';font-weight:500;font-size:48.096px;fill:white;">HIGH IN</text>
+        <text x="76.637px" y="451.291px" style="font-family:'Hamilton-Light', 'Hamilton Light';font-weight:500;font-size:29.242px;fill:white;">&amp;</text>
+        <text x="94.123px" y="451.291px" style="font-family:'Hamilton-Bold', 'Hamilton';font-weight:700;font-size:29.242px;fill:white;">FIBRE</text>
+    </g>
+</svg>
