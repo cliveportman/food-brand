@@ -33,15 +33,9 @@
 
 <style>
 
-
 section {
-  padding: 8.8vw 12vw 8.8vw; margin-bottom: 1.8vw;
+  padding: 6vw 15vw 8.8vw; margin-bottom: 1.8vw;
   background: #FA364A;
-}
-@media (min-width: 768px) {
-  section {
-    padding: 6vw 15vw 8.8vw;
-  }
 }
 
 h1 {
@@ -51,7 +45,7 @@ h1 {
 }
 @media (min-width: 768px) {
 h1 {
-  font-size: 10vw;
+  font-size: 10vw; margin-bottom: 5vw;
 }
 }
 
@@ -138,6 +132,7 @@ article.left h2 .three {
 }
 }
 
+
 article.right {}
 article.right h2 {
   font-family: "Jomhuria"; text-transform: uppercase; text-align: center;
@@ -183,9 +178,8 @@ article.right a p {
   font-size: 8vw; color: inherit;
 }
 
-
 @media (min-width: 768px) {
-  article.right {}
+article.right {}
 article.right h2 {
   font-family: "Jomhuria"; text-transform: uppercase;
 }
@@ -194,7 +188,6 @@ article.right h2 .one {
   font-weight: 400; letter-spacing: 0.02em;
 }
 article.right h2 .one strong {
-  display: inline;
   font-size: 6.8vw;
   font-weight: 700; letter-spacing: 0.05em;
 }
@@ -214,6 +207,7 @@ article.right h2 .three strong {
 article.right a {
   display: flex; justify-content: space-between; flex-direction: row;
   text-decoration: none; color: inherit;
+  width: auto;
 }
 
 article.right a img {
@@ -226,6 +220,7 @@ article.right a p {
   font-weight: 400; line-height: 0.55em;
   font-size: 4vw; color: inherit;
 }
+
 }
 
 </style>
