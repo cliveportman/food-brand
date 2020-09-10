@@ -33,6 +33,7 @@
 
 <style>
 
+
 section {
   padding: 8.8vw 12vw 8.8vw; margin-bottom: 1.8vw;
   background: #FA364A;
@@ -226,4 +227,5 @@ article.right a p {
   font-size: 4vw; color: inherit;
 }
 }
+
 </style>
