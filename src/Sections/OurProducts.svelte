@@ -173,14 +173,21 @@
 
   .product button {
     display: block; margin: 0 auto 1.6vw;
-    padding: 0.75vw 1vw 0.25vw; border-radius: 0.5vw;
+    padding: 3vw 3vw 1.5vw; border-radius: 0.5vw;
     background: #1D1E1B;
     border: none;
-    font-family: "Jomhuria"; font-size: 3vw; text-transform: uppercase; line-height: 0.6em; text-align: center;color: #F0EEE8;
+    font-family: "Jomhuria"; font-size: 8vw; text-transform: uppercase; line-height: 0.6em; text-align: center;color: #F0EEE8;
     letter-spacing: 0.025em;
     opacity: 0;
     transition: opacity 0.3s; transition-delay: 0s;
     cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    .product button {
+      padding: 0.75vw 1vw 0.25vw;
+      font-size: 3vw;
+    }
   }
 
   .product:hover button {
