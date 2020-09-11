@@ -62,11 +62,12 @@
   }
 
   #smallnav a {
+    position: relative; top: 0;
     display: block;
     padding: 2vw;
     font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 12vw; line-height: 1em; color: #1D1E1B;
     text-decoration: none; text-transform: uppercase; font-weight: 500; text-align: center;
-    transition: top 0.3s; 
+    transition: all 0.3s linear;
   }
   #smallnav a.light {
     font-weight: 300;
@@ -92,8 +93,9 @@
     width: 8vw;
   }
 
-  a:focus, a:hover, a:active {
-    color: #FED500;
+  a:focus, #smallnav a:hover, a:active {
+    top: -2px;
+    animation: shake 0.3s;
   }
 
   #smallnav-close {
@@ -122,4 +124,22 @@
     #burger, #smallnav { display: none; }
     .links { display: block; }
   }
+
+
+
+
+
+  @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -1px) rotate(-1deg); }
+  20% { transform: translate(-1px, 0px) rotate(1deg); }
+  30% { transform: translate(1px, 1px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-1px, 1px) rotate(0deg); }
+  70% { transform: translate(1px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 1px) rotate(0deg); }
+  100% { transform: translate(1px, -1px) rotate(-1deg); }
+}
 </style>
