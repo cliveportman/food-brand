@@ -3,7 +3,7 @@
   import SocialLinks from './SocialLinks.svelte';
   import Nav from './Nav.svelte';
 
-  let displayMobileNav = false;
+  let displayMobileNav = true;
 </script>
 
 
@@ -18,7 +18,7 @@
   </div>
 
   {#if displayMobileNav}
-  <div id="smallnav" in:fly="{{ delay: 0, duration: 300, x: 0, y: -1000, opacity: 1 }}">
+  <div id="smallnav" in:fly="{{ delay: 0, duration: 300, x: 0, y: -1000, opacity: 1 }}" out:fly="{{ delay: 0, duration: 300, x: 0, y: -1000, opacity: 1 }}">
     <input id="smallnav-close" type="image" src="/img/burger-close.svg" on:click={() => displayMobileNav = !displayMobileNav}>
     <a href="#products" class="medium">Products</a>
     <a href="#our-story" class="light">Our Story</a>
@@ -66,7 +66,7 @@
     padding: 2vw;
     font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 12vw; line-height: 1em; color: #1D1E1B;
     text-decoration: none; text-transform: uppercase; font-weight: 500; text-align: center;
-    transition: color 0.3s; 
+    transition: top 0.3s; 
   }
   #smallnav a.light {
     font-weight: 300;
