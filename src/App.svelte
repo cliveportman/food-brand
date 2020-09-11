@@ -53,12 +53,7 @@
   }
   .spacer.right {
     background: #F0EEE8;
-    background: linear-gradient(#ffffff 70vw, #F0EEE8 70vh, #F0EEE8 100%);
-  }
-  @media (min-width: 768px) {
-    .spacer.right {
-      background: linear-gradient(#ffffff 90vw, #F0EEE8 100vh, #F0EEE8 100%);
-    }
+    
   }
 
 </style>
