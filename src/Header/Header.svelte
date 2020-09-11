@@ -94,8 +94,7 @@
   }
 
   a:focus, #smallnav a:hover, a:active {
-    top: -2px;
-    animation: shake 0.3s;
+    top: -3px;
   }
 
   #smallnav-close {
