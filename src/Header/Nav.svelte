@@ -14,7 +14,8 @@ function scrollTo(id) {
   <a href="#our-products" class="medium"on:click|preventDefault="{() => scrollTo('#our-products')}">Products</a>
   <a href="#our-story" class="light"on:click|preventDefault="{() => scrollTo('#our-story')}">Our Story</a>
   <a href="#sustainability" class="medium"on:click|preventDefault="{() => scrollTo('#sustainability')}">Sustainability</a>
-  <a href="#our-stockists" class="bold"on:click|preventDefault="{() => scrollTo('#our-stockists')}">Stockists</a>
+  <a href="#our-stockists" class="light"on:click|preventDefault="{() => scrollTo('#our-stockists')}">Stockists</a>
+  <a href="#" class="bold">Shop</a>
 </nav>
 
   
@@ -30,7 +31,7 @@ function scrollTo(id) {
   a {
     position: relative;
     display: inline;
-    font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 2.9vw; line-height: 1em; color: #1D1E1B;
+    font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 2.8vw; line-height: 1em; color: #1D1E1B;
     text-decoration: none; text-transform: uppercase; font-weight: 500;
     transition: top 0.3s; 
   }

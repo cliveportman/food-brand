@@ -29,7 +29,8 @@
     <a href="#our-products" class="medium" on:click|preventDefault="{() => scrollTo('#our-products')}">Products</a>
     <a href="#our-story" class="light" on:click|preventDefault="{() => scrollTo('#our-story')}">Our Story</a>
     <a href="#sustainability" class="medium" on:click|preventDefault="{() => scrollTo('#sustainability')}">Sustainability</a>
-    <a href="#our-stockists" class="bold" on:click|preventDefault="{() => scrollTo('#our-stockists')}">Stockists</a>
+    <a href="#our-stockists" class="light" on:click|preventDefault="{() => scrollTo('#our-stockists')}">Stockists</a>
+    <a href="#" class="bold">Shop</a>
     <a href="#" class="basket"><img src="/img/basket.svg" alt="Basket"></a>
     <div class="sociallinks">
       <a href=""><img src="img/instagram.svg" alt="Instagram"></a>
