@@ -1,7 +1,7 @@
 <section>
 
   <div class="intro">
-    <h1>Our Products</h1>
+    <h1 id="our-products">Our Products</h1>
     <h2>
       <span class="left">Packed with <strong>flavour</strong></span>
       <img src="/img/divider.svg" alt="">
@@ -37,7 +37,7 @@
 
   </div>
 
-  <div class="copy">
+  <div class="copy" id="our-story">
 
     <article>
       <h2 class="one"><strong>Here at Cheeky'Ps,</strong>We do not do things in half measures!</h2>

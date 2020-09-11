@@ -112,6 +112,10 @@ a:active svg path, a:hover svg path, a:focus svg path {
 #footer-shoplink {
   position: absolute; right: 19.5vw; top: -10vw;
   display: block; width: 10.5vw;
+  transition: top 0.3s;
+}
+#footer-shoplink:focus, #footer-shoplink:hover, #footer-shoplink:active {
+  top: -10.5vw;
 }
 #footer-shoplink img {
   width: 100%;

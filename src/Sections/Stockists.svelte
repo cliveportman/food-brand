@@ -1,35 +1,35 @@
-<section>
+<section id="our-stockists">
 
   <h1>Stockists</h1>
 
   <div class="stockists col4">
-    <a href="#"><img src="/img/stockists/slice1.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice2.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice3.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice4.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice5.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice6.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice7.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice8.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice9.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice10.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice11.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice12.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice13.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice14.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice15.png" alt=""></a>
+    <img src="/img/stockists/slice1.png" alt="">
+    <img src="/img/stockists/slice2.png" alt="">
+    <img src="/img/stockists/slice3.png" alt="">
+    <img src="/img/stockists/slice4.png" alt="">
+    <img src="/img/stockists/slice5.png" alt="">
+    <img src="/img/stockists/slice6.png" alt="">
+    <img src="/img/stockists/slice7.png" alt="">
+    <img src="/img/stockists/slice8.png" alt="">
+    <img src="/img/stockists/slice9.png" alt="">
+    <img src="/img/stockists/slice10.png" alt="">
+    <img src="/img/stockists/slice11.png" alt="">
+    <img src="/img/stockists/slice12.png" alt="">
+    <img src="/img/stockists/slice13.png" alt="">
+    <img src="/img/stockists/slice14.png" alt="">
+    <img src="/img/stockists/slice15.png" alt="">
   </div>
   <div class="stockists col3">
-    <a href="#"><img src="/img/stockists/slice16.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice17.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice18.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice19.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice20.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice21.png" alt=""></a>
+    <img src="/img/stockists/slice16.png" alt="">
+    <img src="/img/stockists/slice17.png" alt="">
+    <img src="/img/stockists/slice18.png" alt="">
+    <img src="/img/stockists/slice19.png" alt="">
+    <img src="/img/stockists/slice20.png" alt="">
+    <img src="/img/stockists/slice21.png" alt="">
   </div>
   <div class="stockists col2">
-    <a href="#"><img src="/img/stockists/slice22.png" alt=""></a>
-    <a href="#"><img src="/img/stockists/slice23.png" alt=""></a>
+    <img src="/img/stockists/slice22.png" alt="">
+    <img src="/img/stockists/slice23.png" alt="">
   </div>
 
 </section>
@@ -67,14 +67,21 @@ h1:before {
   flex-wrap: wrap;
 }
 
-.stockists a {
+.stockists img {
   display: block;
-  height: 10vw; flex-grow: 1;
-  text-align: center;
+  height: 10vw; flex-grow: 1; width: auto;
 }
 
-.stockists img {
-  height: 100%; width: auto;
+
+@media (min-width: 768px) {
+
+  .stockists img {
+    height: 11vw;
+
+  }
+  .stockists.col3 img, .stockists.col2 img {
+    height: 10vw;
+  }
 }
 
 </style>

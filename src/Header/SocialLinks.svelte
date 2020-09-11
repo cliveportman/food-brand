@@ -81,22 +81,21 @@
 }
   
 a {
-  display: block;
+  display: block; position: relative;
   width: 3.2vw; height: 3.2vw;
+  transition: top 0.3s;
+}
+
+a:hover {
+  top: -4px;
 }
 
 a svg path {
   fill: #1D1E1B; transition: 0.3s;
 }  
-a:active svg path, a:hover svg path, a:focus svg path {
-  fill: #FED500;
-}
 
 a.basketlink svg path {
   fill:none; fill-rule:nonzero; stroke: #1D1E1B; stroke-width:0.88px;
-}
-a.basketlink:hover svg path, a.basketlink:focus svg path, a.basketlink:active svg path {
-  fill:none; fill-rule:nonzero; stroke: #FED500; stroke-width:0.88px;
 }
 a.basket svg path {} /* Not used but this line is required for the previous lines to work - #wtf? */  
 

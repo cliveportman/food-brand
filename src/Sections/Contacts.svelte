@@ -121,15 +121,16 @@ section:after {
   }
   
   .sociallinks a {
-  display: block;
+  display: block; position: relative;
   width: 6vw; height: 6vw;
+  transition: top 0.3s;
 }
 
 a svg path {
   fill: #1D1E1B; transition: 0.3s;
 }  
-a:active svg path, a:hover svg path, a:focus svg path {
-  fill: #00BCB5;
+a:active , a:hover , a:focus  {
+  top: -4px;
 }
 
 </style>

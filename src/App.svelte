@@ -1,4 +1,7 @@
 <script>
+
+
+
   import Header from './Header/Header.svelte';
   import Splash from './Sections/Splash.svelte';
   import OurProducts from './Sections/OurProducts.svelte';

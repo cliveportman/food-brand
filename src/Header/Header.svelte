@@ -1,9 +1,15 @@
 <script>
+  import * as animateScroll from "svelte-scrollto";
   import { fade, fly } from 'svelte/transition';
   import SocialLinks from './SocialLinks.svelte';
   import Nav from './Nav.svelte';
 
   let displayMobileNav = false;
+
+  function scrollTo(id) {
+    animateScroll.scrollTo({element: id, offset: -20})
+    displayMobileNav = !displayMobileNav
+  }
 </script>
 
 
@@ -20,10 +26,10 @@
   {#if displayMobileNav}
   <div id="smallnav" in:fly="{{ delay: 0, duration: 300, x: 0, y: -1000, opacity: 1 }}" out:fly="{{ delay: 0, duration: 300, x: 0, y: -1000, opacity: 1 }}">
     <input id="smallnav-close" type="image" src="/img/burger-close.svg" on:click={() => displayMobileNav = !displayMobileNav}>
-    <a href="#products" class="medium">Products</a>
-    <a href="#our-story" class="light">Our Story</a>
-    <a href="#sustainability" class="medium">Sustainability</a>
-    <a href="#stockists" class="bold">Stockists</a>
+    <a href="#our-products" class="medium" on:click|preventDefault="{() => scrollTo('#our-products')}">Products</a>
+    <a href="#our-story" class="light" on:click|preventDefault="{() => scrollTo('#our-story')}">Our Story</a>
+    <a href="#sustainability" class="medium" on:click|preventDefault="{() => scrollTo('#sustainability')}">Sustainability</a>
+    <a href="#our-stockists" class="bold" on:click|preventDefault="{() => scrollTo('#our-stockists')}">Stockists</a>
     <a href="#" class="basket"><img src="/img/basket.svg" alt="Basket"></a>
     <div class="sociallinks">
       <a href=""><img src="img/instagram.svg" alt="Instagram"></a>
@@ -93,7 +99,7 @@
     width: 8vw;
   }
 
-  a:focus, #smallnav a:hover, a:active {
+  #smallnav a:focus, #smallnav a:hover, #smallnav a:active {
     top: -3px;
   }
 
@@ -124,21 +130,4 @@
     .links { display: block; }
   }
 
-
-
-
-
-  @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -1px) rotate(-1deg); }
-  20% { transform: translate(-1px, 0px) rotate(1deg); }
-  30% { transform: translate(1px, 1px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-1px, 1px) rotate(0deg); }
-  70% { transform: translate(1px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 1px) rotate(0deg); }
-  100% { transform: translate(1px, -1px) rotate(-1deg); }
-}
 </style>

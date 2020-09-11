@@ -1,10 +1,20 @@
+<script>
 
+  
+import * as animateScroll from "svelte-scrollto";
+
+
+
+function scrollTo(id) {
+    animateScroll.scrollTo({element: id, offset: -20})
+  }
+</script>
 
 <nav>
-  <a href="#products" class="medium">Products</a>
-  <a href="#our-story" class="light">Our Story</a>
-  <a href="#sustainability" class="medium">Sustainability</a>
-  <a href="#stockists" class="bold">Stockists</a>
+  <a href="#our-products" class="medium"on:click|preventDefault="{() => scrollTo('#our-products')}">Products</a>
+  <a href="#our-story" class="light"on:click|preventDefault="{() => scrollTo('#our-story')}">Our Story</a>
+  <a href="#sustainability" class="medium"on:click|preventDefault="{() => scrollTo('#sustainability')}">Sustainability</a>
+  <a href="#our-stockists" class="bold"on:click|preventDefault="{() => scrollTo('#our-stockists')}">Stockists</a>
 </nav>
 
   
@@ -18,10 +28,11 @@
   }
 
   a {
+    position: relative;
     display: inline;
-    font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 2.5vw; line-height: 1em; color: #1D1E1B;
+    font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 2.9vw; line-height: 1em; color: #1D1E1B;
     text-decoration: none; text-transform: uppercase; font-weight: 500;
-    transition: color 0.3s; 
+    transition: top 0.3s; 
   }
   a.light {
     font-weight: 300;
@@ -34,7 +45,7 @@
   }
 
   a:focus, a:hover, a:active {
-    color: #FED500;
+    top: -5px;
   }
 
 

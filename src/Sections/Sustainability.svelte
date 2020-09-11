@@ -1,4 +1,4 @@
-<section>
+<section id="sustainability">
 
   <h1>Sustainability story</h1>
 
@@ -173,7 +173,7 @@ article.right a {
 
 article.right a img {
   margin: 0;
-  display: block; width: 15vw;
+  display: block; width: 15vw; height: 15vw;
   padding-bottom: 0.45vw;
 }
 article.right a p {
