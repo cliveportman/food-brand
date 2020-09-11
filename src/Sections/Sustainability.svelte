@@ -15,7 +15,6 @@
       </a>
     </article>
 
-    <img class="divider" src="/img/sustainability-divider.svg" alt="">
 
     <article class="right">
       <h2>
@@ -114,6 +113,12 @@ article.left h2 .three {
 }
 
 @media (min-width: 768px) {
+article.left {
+  padding-right: 4vw; position: relative; right: -2vw;
+  background: url("/img/sustainability-divider.svg") no-repeat;
+  background-position: right;
+  background-size: auto 100%;
+}
 article.left h2 {
   line-height: 4.5vw; font-size: 6.2vw;
 }
@@ -130,7 +135,7 @@ article.left h2 .two strong {
   font-size: 5.6vw; 
 }
 article.left h2 .three {
-  font-size: 5vw; letter-spacing: -0.03em; 
+  font-size: 4.9vw; letter-spacing: -0.03em; 
 }
 
 article.left a {
