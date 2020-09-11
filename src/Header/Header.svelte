@@ -3,7 +3,7 @@
   import SocialLinks from './SocialLinks.svelte';
   import Nav from './Nav.svelte';
 
-  let displayMobileNav = true;
+  let displayMobileNav = false;
 </script>
 
 
