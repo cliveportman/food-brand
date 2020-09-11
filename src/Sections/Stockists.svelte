@@ -37,27 +37,27 @@
 <style>
 
 section {
-  padding: 8.3vw 12vw 8.8vw; margin-bottom: 0;
+  padding: 8vw 12vw 8.8vw; margin-bottom: 0;
   background: #FFD700;
 }
 
 h1 {
   position: relative;
-  margin-bottom: 9.1vw;
-  font-family: "Jomhuria"; font-size: 11vw; text-transform: uppercase; line-height: 0.5em; text-align: center;
-  font-weight: 700; letter-spacing: 0.03em;
+  margin-bottom: 9vw;
+  font-family: "Hamilton"; font-size: 8.5vw; text-transform: uppercase; line-height: 1em; text-align: center;
+  font-weight: 700; letter-spacing: -0.03em;
 }
 
 h1:after {
   content: '';
-  position: absolute; top: -5.2vw; left: 24.65vw;
-  width: 5.7vw;height: 5.7vw;
+  position: absolute; top: -3vw; left: 27.75vw;
+  width: 5.7vw; height: 5.7vw;
   background: url('/img/stockist-h1-pea.svg') no-repeat;
 }
 
 h1:before {
   content: '';
-  position: absolute; top: 5.2vw; left: 24.65vw;
+  position: absolute; top: 8.25vw; left: 27.75vw;
   width: 6.1vw; height: 0.3vw;
   background: url('/img/stockist-h1-shadow.svg') no-repeat;
 }

@@ -60,11 +60,11 @@ section:after {
   position: absolute; right: 0; bottom: 0;
   content: '';
   width: 50vw;
-  height: 47.5vw;
+  height: 42.5vw;
   background: #F0EEE8;
-  border-radius: 66vw 0 0 0;
-  -moz-border-radius: 66vw 0 0 0;
-  -webkit-border-radius: 66vw 0 0 0;
+  border-radius: 50vw 0 0 0;
+  -moz-border-radius: 50vw 0 0 0;
+  -webkit-border-radius: 50vw 0 0 0;
 }
 
 #contacts-roasting {
@@ -72,34 +72,34 @@ section:after {
 
 }
   #contacts-roasting h2 {
-  font-family: "Jomhuria"; font-size: 9vw; text-transform: uppercase; line-height: 0.55em; text-align: left;
-  font-weight: 700; letter-spacing: 0.03em;
+  font-family: "Hamilton"; font-size: 6.7vw; text-transform: uppercase; line-height: 0.8em; text-align: left;
+  font-weight: 700; letter-spacing: -0.03em;
 
   }
 
 #contacts-contact {
   position: relative; z-index: 2;
-  padding-right: 8.5vw; padding-top: 13vw;
+  padding-right: 6.5vw; padding-top: 13vw;
 }
 
 #contacts-contact h2 {
   margin-bottom: 1.8vw; ;
-  font-family: "Jomhuria"; font-size: 7.8vw; text-transform: uppercase; line-height: 0.55em; text-align: left;
-  font-weight: 700; letter-spacing: 0.03em;
+  font-family: "Hamilton"; font-size: 5.2vw; text-transform: uppercase; line-height: 1em; text-align: left;
+  font-weight: 700; letter-spacing: -0.03em;
 }
 #contacts-contact p {
   margin-bottom: 2.4vw;
-  font-family: "Jomhuria"; font-size: 4vw;  line-height: 0.75; text-align: left;
-  font-weight: 400;
+  font-family: "Hamilton"; font-size: 3vw;  line-height: 1em; text-align: left;
+  font-weight: 300; letter-spacing: -0.03em;
 
 }
 #contacts-contact p strong {
-  font-weight: 700; letter-spacing: 0.05em; font-size: 4.8vw;
+  font-weight: 700; letter-spacing: -0.03em; font-size: 3.2vw;
 }
 #contacts-contact a {
   display: block; width: 100%;
-  font-family: "Jomhuria"; font-size: 4vw;  line-height: 0.75; text-align: left;
-  font-weight: 700;letter-spacing: 0.03em; color: inherit; text-decoration: none;
+  font-family: "Cooper Black"; font-size: 2vw;  line-height: 1.1em; text-align: left;
+  font-weight: 700; color: inherit; text-decoration: none;
 
 }
 #contacts-contact a:focus, #contacts-contact a:hover, #contacts-contact a:active {

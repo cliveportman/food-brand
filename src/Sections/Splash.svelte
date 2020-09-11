@@ -46,8 +46,9 @@
 
     h1 {
       margin: 0 auto;
-      font-family: "Jomhuria"; font-size: 9vw; text-transform: uppercase; line-height: 0.5em; text-align: center;
-      font-weight: 700; letter-spacing: 0.02em;
+      font-size: 6.7vw; text-transform: uppercase; line-height: 0.8em; text-align: center;
+      font-weight: 700;
+      font-family: "Hamilton"; letter-spacing: -0.03em;
     }
 
     #splash-p1 {

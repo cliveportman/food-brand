@@ -68,8 +68,9 @@
   h1 {
     position: absolute; z-index: 0; right: 6vw; top: -28vw;
     width: 33vw;  
-    font-family: "Jomhuria"; font-size: 13vw; text-transform: uppercase; line-height: 0.5em; text-align: center;
-    font-weight: 700; letter-spacing: 0.02em;
+    font-size: 9.2vw; text-transform: uppercase; line-height: 0.8em; text-align: center;
+    font-weight: 700; 
+    font-family: "Hamilton"; letter-spacing: -0.03em;
   }
   h1:before {
     position: absolute; right: -13vw; top: -25vw; z-index: -1;
@@ -88,51 +89,59 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Jomhuria"; font-size: 10vw; text-transform: uppercase; line-height: 0.6em; text-align: center;
+    font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 6.5vw; 
+    text-transform: uppercase; line-height: 0.8em; text-align: center;
   }
+.intro h2 span {
+  display: block;
+  font-weight: 300;
+}
+.intro h2 span strong {
+  display: block; font-weight: 700;
+}
+.intro h2 span.left {
+  padding-top: 0.6vw;
+}
+.intro h2 span.left strong {
+  font-size: 4.6vw;
+}
+
 @media (min-width: 768px) {
   .intro h2 {
     width: 44vw;
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
-}
   .intro h2 span {
     display: block;
   }
-
-  .intro h2 span strong {
-    display: block; font-weight: 700; }
-
-  .intro h2 span.left {
-    padding-top: 0.6vw;
-    letter-spacing: -0.01em;
-  }
-  .intro h2 span.left strong {
-    font-size: 13vw; letter-spacing: 0.03em;
-  }
-  @media (min-width: 768px) {
     .intro h2 span.left strong {
-      font-size: 8vw;
+      font-size: 5.8vw;
     }
+}
+
+
+
+
+  @media (min-width: 768px) {
   }
 
   .intro h2 span.right {
     padding-top: 0.7vw;
     font-size: 11vw;
   }
+
+.intro h2 span.right strong {
+  font-size: 11vw;;
+}
   @media (min-width: 768px) {
     .intro h2 span.right {
-      font-size: 7vw;
+      font-size: 7.1vw;
     }
-  }
-
-  .intro h2 span.right strong {
-    font-size: 11vw; letter-spacing: 0.03em;
+    .intro h2 span.right strong {
+      font-size: 5.4vw;
+    }
   }
   @media (min-width: 768px) {
-    .intro h2 span.right strong {
-      font-size: 8vw;
-    }
   }
 
   .intro h2 img {
@@ -176,8 +185,8 @@
     padding: 3vw 3vw 1.5vw; border-radius: 0.5vw;
     background: #1D1E1B;
     border: none;
-    font-family: "Jomhuria"; font-size: 8vw; text-transform: uppercase; line-height: 0.6em; text-align: center;color: #F0EEE8;
-    letter-spacing: 0.025em;
+    font-family: "Hamilton"; font-size: 8vw; text-transform: uppercase; line-height: 0.8em; text-align: center;color: #F0EEE8;
+    letter-spacing: -0.03em;
     opacity: 0;
     transition: opacity 0.3s; transition-delay: 0s;
     cursor: pointer;
@@ -185,7 +194,7 @@
 
   @media (min-width: 768px) {
     .product button {
-      padding: 0.75vw 1vw 0.25vw;
+      padding: 1vw 2vw 1vw;
       font-size: 3vw;
     }
   }
@@ -211,13 +220,13 @@
   }
 
   .copy h2 {
-    font-family: "Jomhuria"; font-size: 8vw; text-transform: uppercase; line-height: 0.75em; text-align: center;
-    letter-spacing: -0.01em; font-weight: 400;
-    margin-bottom: 0.5vw;
+    font-family: "Hamilton"; font-size: 6.1vw; text-transform: uppercase; line-height: 1em; text-align: center;
+    letter-spacing: -0.03em; font-weight: 300;
+    margin-bottom: 2vw;
   }
   @media (min-width: 768px) {
     .copy h2 {
-      font-size: 6vw;
+      font-size: 4.9vw;
     }
   }
 
@@ -227,22 +236,22 @@
   .copy h2.one strong {
     display: block;
     font-weight: 700;
-    font-size: 12vw; letter-spacing: 0.03em;
+    font-size: 12vw; 
   }
   @media (min-width: 768px) {
     .copy h2.one strong {
-      font-size: 8vw;
+      font-size: 6.1vw;
     }
   }
 
 
   .copy h2.two {}
   .copy h2.two strong {
-    font-size: 10vw;
+    font-size: 10vw; font-weight: 500;
   }
   @media (min-width: 768px) {
   .copy h2.two strong {
-    font-size: 7vw;
+    font-size: 5.2vw;
   }
   }
 
