@@ -74,9 +74,7 @@ h1 {
 }
 
 article {
-  display: flex;
   flex: 0 0 23.5vw;
-  justify-content: space-between; flex-direction: column;
 }
 
 article img {
@@ -133,6 +131,10 @@ article.left h2 .two strong {
 }
 article.left h2 .three {
   font-size: 5vw; letter-spacing: -0.03em; 
+}
+
+article.left a {
+  display: block; margin-top: 2vw;
 }
 }
 
