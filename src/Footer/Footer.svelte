@@ -65,17 +65,17 @@
 #footer-contact {}
 #footer-contact h2 {
   margin-bottom: 0.9vw;
-  font-family: 'Cooper Black'; font-size: 1.4vw;
+  font-family: 'Hamilton'; font-size: 2vw;
   color: #ffffff;
 }
 #footer-contact p {
   margin-bottom: 0.9vw;
-  font-family: "Jomhuria"; font-size: 1.4vw;  line-height: 0.75; text-align: left;
-  font-weight: 400; letter-spacing: 0.03em;;
+  font-family: "Hamilton"; font-size: 1.4vw;  line-height: 1em; text-align: left;
+  font-weight: 300; letter-spacing: 0.03em;;
   color: #ffffff;
   }
 #footer-contact a {  
-  font-family: 'Cooper Black'; font-size: 1.4vw;
+  font-family: 'Hamilton'; font-size: 1.4vw;
   color: #ffffff; text-decoration: none;
 }
 
@@ -84,7 +84,7 @@
 }
 #footer-social h2 {
   margin-bottom: 0.9vw;
-  font-family: 'Cooper Black'; font-size: 1.4vw;
+  font-family: 'Hamilton'; font-size: 2vw;
   color: #ffffff;
 }
 

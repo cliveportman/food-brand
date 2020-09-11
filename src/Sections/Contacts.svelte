@@ -98,8 +98,8 @@ section:after {
 }
 #contacts-contact a {
   display: block; width: 100%;
-  font-family: "Cooper Black"; font-size: 2vw;  line-height: 1.1em; text-align: left;
-  font-weight: 700; color: inherit; text-decoration: none;
+  font-family: "Hamilton"; font-size: 2vw;  line-height: 1.1em; text-align: left;
+  font-weight: 700; color: inherit; text-decoration: none; letter-spacing: -0.03em;
 
 }
 #contacts-contact a:focus, #contacts-contact a:hover, #contacts-contact a:active {
