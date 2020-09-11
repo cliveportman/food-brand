@@ -27,6 +27,7 @@
         <img src="/img/plant-trees-logo.png" alt="">
         <p>To find out more<br>please go to:<br>www.cheekyps.co.uk</p>
       </a>
+      </article>
   </div>
 
 </section>
@@ -34,13 +35,18 @@
 <style>
 
 section {
-  padding: 6vw 15vw 8.8vw; margin-bottom: 1.8vw;
+  padding: 10vw 5vw 8.8vw; margin-bottom: 1.8vw;
   background: #FA364A;
+}
+@media (min-width: 768px) {
+  section {
+  padding: 6vw 15vw 8.8vw;
+  }
 }
 
 h1 {
   margin-bottom: 10vw;
-  font-family: "Hamilton"; font-size: 14vw; text-transform: uppercase; line-height: 0.8em; text-align: center;
+  font-family: "Hamilton"; font-size: 11vw; text-transform: uppercase; line-height: 0.8em; text-align: center;
   font-weight: 700; letter-spacing: -0.03em;
 }
 @media (min-width: 768px) {
@@ -87,42 +93,46 @@ article img {
 article.left {}
 article.left h2 {
   font-family: "Hamilton"; text-transform: uppercase; letter-spacing: -0.03em;
-  line-height: 2.25em; text-align: center;
+  line-height: 0.8em; text-align: center; font-size: 10vw;
 }
 
 article.left h2 .one {
-  font-size: 10vw;
-  font-weight: 400;
+  font-size: 11.5vw;
+  font-weight: 300;
 }
 article.left h2 .one strong {
   font-weight: 500; letter-spacing: -0.03em;
 }
 article.left h2 .two {
+  display: block;
   font-weight: 400;
 }
 article.left h2 .two strong {
-  font-size: 12vw;
+  font-size: 10vw;
   font-weight: 500;
 }
 article.left h2 .three {
   font-weight: 300; 
-  font-size: 5vw;
+  font-size: 9vw;
 }
 
 @media (min-width: 768px) {
+article.left h2 {
+  line-height: 0.8em; font-size: 6.2vw;
+}
 article.left h2 .one {
   font-size: 6.6vw; 
   font-weight: 300; 
 }
 article.left h2 .one strong {
 }
-article.left h2 .two { 
+article.left h2 .two {  line-height: 0.75em;
 }
 article.left h2 .two strong {
-  font-size: 5.5vw; 
+  font-size: 5.6vw; 
 }
 article.left h2 .three {
-  font-size: 5.2vw; letter-spacing: -0.03em;
+  font-size: 5vw; letter-spacing: -0.03em;
 }
 }
 
@@ -130,22 +140,21 @@ article.left h2 .three {
 article.right {}
 article.right h2 {
   font-family: "Hamilton"; text-transform: uppercase; text-align: center;
-  letter-spacing: -0.03em; line-height: 2.35em;
+  letter-spacing: -0.03em; line-height: 0.65; font-size: 10vw;
 }
 article.right h2 .one {
-  font-size: 10vw; 
-  font-weight: 300;
+  font-weight: 300; font-size: 12vw;
 }
 article.right h2 .one strong {
   display: block;
   font-weight: 500; letter-spacing: -0.03em; 
 }
 article.right h2 .two {
-  font-weight: 300; letter-spacing: -0.03em;
+  font-weight: 300; letter-spacing: -0.03em; line-height: 1em;
 }
 article.right h2 .three strong {
   display: block;
-  font-size: 12vw;
+  font-size: 11vw;
   font-weight: 500; letter-spacing: -0.03em; 
 }
 
@@ -161,19 +170,22 @@ article.right a img {
   padding-bottom: 0.45vw;
 }
 article.right a p {
-  padding-left: 0.9vw; padding-top: 0.9vw;
+  padding-left: 0.9vw; padding-top: 1.5vw; padding-right: 1vw;
   font-family: "Hamilton"; text-transform: uppercase;
   font-weight: 300; line-height: 0.8em; letter-spacing: -0.03em;
-  font-size: 8vw; color: inherit;
+  font-size: 5vw; color: inherit;
 }
 
 @media (min-width: 768px) {
+article.right h2 {
+  line-height: 0.8em; font-size: 6vw;
+}
 article.right h2 .one strong {
   font-size: 6.5vw;
   font-weight: 500;
 }
 article.right h2 .two {
-  font-size: 5.4vw;
+  font-size: 5.4vw; line-height: 1em;
 }
 article.right h2 .three strong {
   font-size: 5.8vw;

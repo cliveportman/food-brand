@@ -46,7 +46,7 @@
 
     <article>
       <h2 class="two"><strong>Guess what, that's not all!</strong></h2>
-      <p>we made sure that our peas are not only scrumptious but packed with nutrients. With each serving offering more than 10g of muscle-building protein and 7g of fibre that your tummy will absolutely thank you for, we make healthy snacking an easy peasy thing for you!</p>
+      <p>We made sure that our peas are not only scrumptious but packed with nutrients. With each serving offering more than 10g of muscle-building protein and 7g of fibre that your tummy will absolutely thank you for, we make healthy snacking an easy peasy thing for you!</p>
     </article>
 
 
@@ -83,27 +83,27 @@
     -webkit-border-radius: 66vw 0 0 0;
   }
 
-  .intro h2 {
-    position: relative; z-index: 1;  width: 70vw;
-    margin: 6.2vw auto 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 6.5vw; 
-    text-transform: uppercase; line-height: 0.8em; text-align: center;
-  }
+.intro h2 {
+  position: relative; z-index: 1;  width: 70vw;
+  margin: 6.2vw auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Hamilton"; letter-spacing: -0.03em; font-size: 10vw; 
+  text-transform: uppercase; line-height: 0.8em; text-align: center;
+}
 .intro h2 span {
   display: block;
   font-weight: 300;
 }
 .intro h2 span strong {
-  display: block; font-weight: 700;
+  display: block; font-weight: 700; 
 }
 .intro h2 span.left {
   padding-top: 0.6vw;
 }
 .intro h2 span.left strong {
-  font-size: 4.6vw;
+  font-size: 9vw;
 }
 
 @media (min-width: 768px) {
@@ -122,16 +122,13 @@
 
 
 
-  @media (min-width: 768px) {
-  }
-
-  .intro h2 span.right {
-    padding-top: 0.7vw;
-    font-size: 11vw;
-  }
+.intro h2 span.right {
+  padding-top: 0.7vw;
+  font-size: 11vw;
+}
 
 .intro h2 span.right strong {
-  font-size: 11vw;;
+  font-size: 8vw;
 }
   @media (min-width: 768px) {
     .intro h2 span.right {
@@ -141,11 +138,14 @@
       font-size: 5.4vw;
     }
   }
-  @media (min-width: 768px) {
-  }
 
   .intro h2 img {
+    width: 1.2vw;
+  }
+  @media (min-width: 768px) {
+  .intro h2 img {
     width: 0.84vw;
+  }
   }
 
 .products {
@@ -220,7 +220,7 @@
   }
 
   .copy h2 {
-    font-family: "Hamilton"; font-size: 6.1vw; text-transform: uppercase; line-height: 1em; text-align: center;
+    font-family: "Hamilton"; font-size: 7.6vw; text-transform: uppercase; line-height: 1.2em; text-align: center;
     letter-spacing: -0.03em; font-weight: 300;
     margin-bottom: 2vw;
   }
@@ -236,7 +236,7 @@
   .copy h2.one strong {
     display: block;
     font-weight: 700;
-    font-size: 12vw; 
+    font-size: 10vw; 
   }
   @media (min-width: 768px) {
     .copy h2.one strong {
@@ -247,7 +247,7 @@
 
   .copy h2.two {}
   .copy h2.two strong {
-    font-size: 10vw; font-weight: 500;
+    font-size: 8vw; font-weight: 500;
   }
   @media (min-width: 768px) {
   .copy h2.two strong {

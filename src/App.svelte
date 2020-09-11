@@ -43,6 +43,11 @@
   .spacer {
     width: 7vw;
   }
+  @media (min-width: 768px) {
+    .spacer {
+      width: 7vw;
+    }
+  }
   .spacer.left {
     background: #F0EEE8;
   }
