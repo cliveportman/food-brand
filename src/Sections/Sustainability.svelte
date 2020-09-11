@@ -201,7 +201,7 @@ article.right a {
 }
 
 article.right a img {
-  display: block; width: 7.5vw;
+  display: block; width: 7.5vw; height: 8vw;
   padding-bottom: 0.45vw;
 }
 article.right a p {
