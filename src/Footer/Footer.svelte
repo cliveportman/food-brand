@@ -47,7 +47,7 @@
       </div>   
   </div>
 
-  <a href="#" id="footer-shoplink"><img  src="/img/footer-packet.svg" alt="Shop now"></a>
+  <a href="https://cheeky-ps.myshopify.com/" id="footer-shoplink"><img  src="/img/footer-packet.svg" alt="Shop now"></a>
 
 </footer>
 
