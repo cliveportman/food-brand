@@ -129,7 +129,7 @@ article.left p a, article.right p a {
 article.left {
   padding-right: 4vw; position: relative; right: -2vw;
   background: url("/img/sustainability-divider.svg") repeat-y;
-  background-position: right;
+  background-position: right top;
   background-size: 1vw;
 }
 article.left h2 {
