@@ -56,34 +56,51 @@
 
   footer {
     position: relative;
-    padding: 2.4vw 7vw; margin-top: 8.2vw;
+    padding: 7vw 7vw; margin-top: 8.2vw;
     background: #1D1E1B;
+  }
+
+  
+  @media (min-width: 768px) {
+    footer {
+      padding: 2.4vw 7vw;
     display: flex;
     justify-content: flex-start;
+  }
   }
 
 #footer-contact {}
 #footer-contact h2 {
-  margin-bottom: 0.9vw;
-  font-family: 'Hamilton'; font-size: 2vw;
+  margin-bottom: 3vw;
+  font-family: 'Hamilton'; font-size: 4.8vw;
   color: #ffffff;
 }
 #footer-contact p {
-  margin-bottom: 0.9vw;
-  font-family: "Hamilton"; font-size: 1.4vw;  line-height: 1em; text-align: left;
+  margin-bottom: 3vw;
+  font-family: "Hamilton"; font-size: 3.6vw;  line-height: 1em; text-align: left;
   font-weight: 300; letter-spacing: 0.03em;;
   color: #ffffff;
   }
 #footer-contact a {  
-  font-family: 'Hamilton'; font-size: 1.4vw;
+  display: block;
+  margin-bottom: 3vw;
+  font-family: 'Hamilton'; font-size:3.6vw; 
   color: #ffffff; text-decoration: none;
 }
 
+
+@media (min-width: 768px) {
+  #footer-contact h2 { font-size: 2vw; margin-bottom: 0.9vw;}
+  #footer-contact p { font-size: 1.4vw; margin-bottom: 0.9vw}
+  #footer-contact a { font-size: 1.4vw; margin-bottom: 0.9vw;}
+
+}
+
 #footer-social {
-  margin-left: 6.5vw;
+  display: none;
 }
 #footer-social h2 {
-  margin-bottom: 0.9vw;
+  margin-bottom: 3.6vw;
   font-family: 'Hamilton'; font-size: 2vw;
   color: #ffffff;
 }
@@ -97,8 +114,6 @@
   
 .sociallinks a {
   display: block;
-  width: 1.8vw; height: 1.8vw;
-  margin-right: 0.5vw;
 }
 
 a svg path {
@@ -108,8 +123,29 @@ a:active svg path, a:hover svg path, a:focus svg path {
   fill: #FED500;
 }
 
+@media (min-width: 768px) {
+  #footer-social { display: block; margin-left: 6.5vw; }
+  #footer-social h2 { font-size: 1.8vw; margin-bottom: 0.9vw;}
+  .sociallinks a {
+  width: 1.8vw; height: 1.8vw;
+  margin-right: 0.5vw;
+}
+}
+
 
 #footer-shoplink {
+  position: absolute; right: 19.5vw; top: -10vw;
+  display: block; width: 20vw;
+  transition: top 0.3s;
+}
+#footer-shoplink:focus, #footer-shoplink:hover, #footer-shoplink:active {
+  top: -10.5vw;
+}
+#footer-shoplink img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #footer-shoplink {
   position: absolute; right: 19.5vw; top: -10vw;
   display: block; width: 10.5vw;
   transition: top 0.3s;
@@ -119,5 +155,6 @@ a:active svg path, a:hover svg path, a:focus svg path {
 }
 #footer-shoplink img {
   width: 100%;
+}
 }
 </style>

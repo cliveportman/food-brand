@@ -1,36 +1,12 @@
 <section id="our-stockists">
 
-  <h1>Stockists</h1>
-
-  <div class="stockists col4">
-    <img src="/img/stockists/slice1.png" alt="">
-    <img src="/img/stockists/slice2.png" alt="">
-    <img src="/img/stockists/slice3.png" alt="">
-    <img src="/img/stockists/slice4.png" alt="">
-    <img src="/img/stockists/slice5.png" alt="">
-    <img src="/img/stockists/slice6.png" alt="">
-    <img src="/img/stockists/slice7.png" alt="">
-    <img src="/img/stockists/slice8.png" alt="">
-    <img src="/img/stockists/slice9.png" alt="">
-    <img src="/img/stockists/slice10.png" alt="">
-    <img src="/img/stockists/slice11.png" alt="">
-    <img src="/img/stockists/slice12.png" alt="">
-    <img src="/img/stockists/slice13.png" alt="">
-    <img src="/img/stockists/slice14.png" alt="">
-    <img src="/img/stockists/slice15.png" alt="">
-  </div>
+  <h1 data-aos="fade-up">Find the horde</h1>
   <div class="stockists col3">
-    <img src="/img/stockists/slice16.png" alt="">
-    <img src="/img/stockists/slice17.png" alt="">
-    <img src="/img/stockists/slice18.png" alt="">
-    <img src="/img/stockists/slice19.png" alt="">
-    <img src="/img/stockists/slice20.png" alt="">
-    <img src="/img/stockists/slice21.png" alt="">
+    <img src="/img/ocado.png" alt="" data-aos="fade-up">
+    <img src="/img/amazon.png" alt="" data-aos="fade-up" data-aos-delay="50">
+    <img src="/img/nisa.png" alt="" data-aos="fade-up" data-aos-delay="100">
   </div>
-  <div class="stockists col2">
-    <img src="/img/stockists/slice22.png" alt="">
-    <img src="/img/stockists/slice23.png" alt="">
-  </div>
+  <p>& many more independents!</p>
 
 </section>
 
@@ -38,12 +14,12 @@
 
 section {
   padding: 8vw 12vw 8.8vw; margin-bottom: 0;
-  background: #FFD700;
+  background: #FA364A;
 }
 
 h1 {
   position: relative;
-  margin-bottom: 9vw;
+  margin-bottom: 4vw;
   font-family: "Hamilton"; font-size: 8.5vw; text-transform: uppercase; line-height: 1em; text-align: center;
   font-weight: 700; letter-spacing: -0.03em;
 }
@@ -65,23 +41,27 @@ h1:before {
 .stockists {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .stockists img {
   display: block;
-  height: 10vw; flex-grow: 1; width: auto;
+  height: 10vw; width: auto;
 }
 
 
 @media (min-width: 768px) {
-
-  .stockists img {
+  .stockists.col3 img {
     height: 11vw;
+  }
+}
 
-  }
-  .stockists.col3 img, .stockists.col2 img {
-    height: 10vw;
-  }
+
+p {
+  position: relative;
+  margin-top: 4vw;
+  font-family: "Hamilton"; font-size: 6.4vw; text-transform: uppercase; line-height: 1em; text-align: center;
+  font-weight: 300; letter-spacing: -0.03em;
 }
 
 </style>
