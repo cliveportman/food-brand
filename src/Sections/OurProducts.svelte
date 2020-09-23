@@ -2,7 +2,7 @@
 
   <div class="intro">
     <h1 id="our-products">Our Products</h1>
-    <h2>
+    <h2 data-aos="fade-up">
       <span class="left">Packed with <strong>flavour</strong></span>
       <img src="/img/divider.svg" alt="">
       <span class="right">Good for <strong>the gym</strong></span>
@@ -11,25 +11,25 @@
 
   <div class="products">
     
-    <a href="#" class="product">
+    <a href="#" class="product" data-aos="fade-up">
       <img class="product-thumb" src="/img/cheeky-ps-barbque.jpg" alt="Cheeky P's bar-b-que">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
     </a>
     
-    <a href="#" class="product">
+    <a href="#" class="product" data-aos="fade-up" data-aos-delay="50">
       <img class="product-thumb" src="/img/cheeky-ps-cheese.jpg" alt="Cheeky P's cheese">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
     </a>
     
-    <a href="#" class="product">
+    <a href="#" class="product" data-aos="fade-up" data-aos-delay="100">
       <img class="product-thumb" src="/img/cheeky-ps-curry.jpg" alt="Cheeky P's curry">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
     </a>
     
-    <a href="#" class="product">
+    <a href="#" class="product" data-aos="fade-up" data-aos-delay="150">
       <img class="product-thumb" src="/img/cheeky-ps-chilli-lime.jpg" alt="Cheeky P's chilli & lime">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
@@ -37,15 +37,15 @@
 
   </div>
 
-  <div class="copy" id="our-story">
+  <div class="copy" id="our-story" data-aos="fade-up">
 
     <article>
-      <h2 class="one"><strong>We are the Cheeky P's,</strong>We're rebels against monotony.<br>We riot against boring.</h2>
-      <p>Our aim is to bring mischief into the everyday life of snack lovers everywhere, with a little help from the not-so humble chickpea.</p>
-      <p>We're a spark of life, a full-bellied laugh, a good-natured dig in the ribs. And we can be a right pain in the a**e when we want to be.</p>
-      <p>Our chickpea snacks play mayhem with the mundane. Bold? Yes. Brazen? Undoubtedly. We're full of ourselves, impressively packed with protein and fibre, and shamelessly tasty to boot.</p>
-      <p>We're immodestly adaptable. Good for the gym, delicious with dinner and perfect with a pint, we make any occasion a little bit more cheeky than you'd bargained for.</p>
-      <p><strong>Not convinced? The cheek of it.</strong></p>
+      <h2 class="one" data-aos="fade-up"><strong>We are the Cheeky P's,</strong>We're rebels against monotony.<br>We riot against boring.</h2>
+      <p data-aos="fade-up">Our aim is to bring mischief into the everyday life of snack lovers everywhere, with a little help from the not-so humble chickpea.</p>
+      <p data-aos="fade-up">We're a spark of life, a full-bellied laugh, a good-natured dig in the ribs. And we can be a right pain in the a**e when we want to be.</p>
+      <p data-aos="fade-up">Our chickpea snacks play mayhem with the mundane. Bold? Yes. Brazen? Undoubtedly. We're full of ourselves, impressively packed with protein and fibre, and shamelessly tasty to boot.</p>
+      <p data-aos="fade-up">We're immodestly adaptable. Good for the gym, delicious with dinner and perfect with a pint, we make any occasion a little bit more cheeky than you'd bargained for.</p>
+      <p data-aos="fade-up"><strong>Not convinced? The cheek of it.</strong></p>
     </article>
 
 

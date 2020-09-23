@@ -1,4 +1,35 @@
+
+
+<svelte:head>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" on:load={aosLoaded}></script>
+</svelte:head>
+
 <script>
+  import { onMount } from 'svelte';
+  let aosReady = false;
+  let mounted = false;
+   
+  onMount(() => {
+      mounted = true;
+      if (aosReady) {
+          initAos();
+      }
+  });
+
+  function aosLoaded() {
+      // The external Stripe javascript is ready.
+      aosReady = true;
+      if (mounted) {
+          initAos();
+      }
+  }
+
+  function initAos() {
+    AOS.init({
+      useClassNames: true,
+    });
+  }
+
 
 
 

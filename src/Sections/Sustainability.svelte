@@ -1,31 +1,44 @@
 <section id="sustainability">
 
-  <h1>Sustainability story</h1>
-
   <div class="articles">
 
     <article class="left">
-      <h2>
+      <h2 data-aos="fade-right">
         <span class="one">We <strong>Only</strong> use</span>
         <span class="two"><strong>sustainably</strong></span>
         <span class="three">sourced palm oil</span>
       </h2>
-      <a href="#">
-        <img src="/img/palm-oil-logo.png" alt="">
-      </a>
+      <p data-aos="fade-right">Although palm oil has received its
+        fair share of bad press, we strongly
+        believe that sustainably sourced
+        palm oil is currently still the way to
+        go as it provides the highest yield
+        compared to its substitutes. Rival
+        crops like rapeseed need as much
+        as 6 times of land to produce the
+        same volume of oil! This is why we
+        chose to use only deforestation
+        free palm oil certified by RSPO. </p>
     </article>
 
 
     <article class="right">
-      <h2>
+      <h2 data-aos="fade-left" data-aos-delay="50">
         <span class="one"><strong>Every pack</strong></span>
         <span class="two">purchased helps</span>
         <span class="three"><strong>plant trees</strong></span>
       </h2>
-      <a href="#">
-        <img src="/img/plant-trees-logo.png" alt="">
-        <p>To find out more<br>please go to:<br>www.cheekyps.co.uk</p>
-      </a>
+      <p data-aos="fade-left" data-aos-delay="50">Purchase a case of Cheeky P's and we'll
+        donate £1 to WLT's Plant A Tree project
+        to help restore forests for wildlife</p>
+      <div id="raisedsofar" data-aos="fade-left" data-aos-delay="50">
+        <p>So far, we've raised <strong>£4,900</strong> <span>of our £10,000 target</span></p>
+        <div id="raisedsofar-filler">
+          <div id="raisedsofar-fill" data-aos="fill-up" data-aos-delay="300" data-aos-duration="1000"></div>
+          <img src="/img/empty-chickpea.svg" alt="">
+        </div>
+      </div>
+      <p data-aos="fade-left" data-aos-delay="50">To find out more or make a direct contribution, <a href="#" target="_blank">please click here.</a></p>
       </article>
   </div>
 
@@ -35,23 +48,12 @@
 
 section {
   padding: 10vw 5vw 8.8vw; margin-bottom: 1.8vw;
-  background: #FA364A;
+  background: #FC5412;
 }
 @media (min-width: 768px) {
   section {
   padding: 6vw 15vw 8.8vw;
   }
-}
-
-h1 {
-  margin-bottom: 10vw;
-  font-family: "Hamilton"; font-size: 11vw; text-transform: uppercase; line-height: 0.8em; text-align: center;
-  font-weight: 700; letter-spacing: -0.03em;
-}
-@media (min-width: 768px) {
-h1 {
-  font-size: 7.3vw; margin-bottom: 5vw;
-}
 }
 
 @media (min-width: 768px) {
@@ -90,6 +92,7 @@ article img {
 article.left h2 {
   font-family: "Hamilton"; text-transform: uppercase; letter-spacing: -0.03em;
   line-height: 0.8em; text-align: center; font-size: 10vw;
+  margin-bottom: 1.4vw;
 }
 
 article.left h2 .one {
@@ -138,6 +141,17 @@ article.left h2 .three {
   font-size: 4.9vw; letter-spacing: -0.03em; 
 }
 
+
+
+article.left p, article.right p {
+  font-family: "Hamilton"; text-transform: none; text-align: left;
+  letter-spacing: -0.03em; line-height: 1em; font-size: 2.5vw; font-weight: 300;
+  
+}
+article.left p a, article.right p a {
+  text-transform: none; color: inherit; text-decoration: none; font-weight: 500;     letter-spacing: -0.06em;
+}
+
 article.left a {
   display: block; margin-top: 2vw;
 }
@@ -148,6 +162,7 @@ article.right {}
 article.right h2 {
   font-family: "Hamilton"; text-transform: uppercase; text-align: center;
   letter-spacing: -0.03em; line-height: 0.65; font-size: 10vw;
+  margin-bottom: 1.4vw;
 }
 article.right h2 .one {
   font-weight: 300; 
@@ -165,10 +180,37 @@ article.right h2 .three strong {
   font-weight: 500; letter-spacing: -0.03em; 
 }
 
-article.right a {
-  display: flex; justify-content: space-between; flex-direction: row;
-  text-decoration: none; color: inherit;
-  width: 46vw; margin: 2vw auto 0;
+
+#raisedsofar {
+  padding: 1vw 0;
+  display: flex;
+
+}
+#raisedsofar p {
+  padding-right: 2vw;
+  margin-bottom: 0; text-transform: uppercase;
+}
+#raisedsofar p span {
+  letter-spacing: -0.06em; font-weight: 300;
+}
+#raisedsofar p strong {
+  display: block; font-size: 5.6vw; line-height: 0.9em;
+
+}
+#raisedsofar-filler {
+  position: relative;
+}
+#raisedsofar-filler img {
+  position: relative; z-index: 5;
+}
+
+:global(#raisedsofar-fill) {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 4;
+  height: 0;
+  background: #FFD700;
+}
+:global(#raisedsofar-fill.aos-animate) {
+  height: calc(50% *0.9);
 }
 
 article.right a img {
@@ -197,21 +239,6 @@ article.right h2 .two {
 article.right h2 .three strong {
   font-size: 5.8vw;
   font-weight: 500;
-}
-
-article.right a {
-  display: flex; justify-content: space-between; flex-direction: row;
-  text-decoration: none; color: inherit;
-  width: auto;
-}
-
-article.right a img {
-  display: block; width: 7.5vw; height: 8vw;
-  padding-bottom: 0.45vw;
-}
-article.right a p {
-  padding-left: 1vw; padding-top: 0.5vw; padding-right: 1vw;
-  font-size: 2.8vw;
 }
 
 }
