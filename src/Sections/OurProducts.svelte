@@ -40,13 +40,12 @@
   <div class="copy" id="our-story">
 
     <article>
-      <h2 class="one"><strong>Here at Cheeky'Ps,</strong>We do not do things in half measures!</h2>
-      <p>Our peas are guaranteed to provide you with that burst of flavour and oh-so-satisfying crunch that you'll love.</p>
-    </article>
-
-    <article>
-      <h2 class="two"><strong>Guess what, that's not all!</strong></h2>
-      <p>We made sure that our peas are not only scrumptious but packed with nutrients. With each serving offering more than 10g of muscle-building protein and 7g of fibre that your tummy will absolutely thank you for, we make healthy snacking an easy peasy thing for you!</p>
+      <h2 class="one"><strong>We are the Cheeky P's,</strong>We're rebels against monotony.<br>We riot against boring.</h2>
+      <p>Our aim is to bring mischief into the everyday life of snack lovers everywhere, with a little help from the not-so humble chickpea.</p>
+      <p>We're a spark of life, a full-bellied laugh, a good-natured dig in the ribs. And we can be a right pain in the a**e when we want to be.</p>
+      <p>Our chickpea snacks play mayhem with the mundane. Bold? Yes. Brazen? Undoubtedly. We're full of ourselves, impressively packed with protein and fibre, and shamelessly tasty to boot.</p>
+      <p>We're immodestly adaptable. Good for the gym, delicious with dinner and perfect with a pint, we make any occasion a little bit more cheeky than you'd bargained for.</p>
+      <p><strong>Not convinced? The cheek of it.</strong></p>
     </article>
 
 
@@ -256,13 +255,20 @@
   }
 
   .copy p {
-    margin: 0 auto;
+    margin: 0 auto 2vw;
     font-family: Abel; font-size: 4.2vw; font-weight: 400; line-height: 1.2em; text-align: center;
-  }  
+  } 
+  .copy p strong {
+    font-family: "Hamilton"; font-size: 7.6vw; text-transform: uppercase; line-height: 1.2em; text-align: center;
+    letter-spacing: -0.03em; font-weight: 300;
+  }
   @media (min-width: 768px) {
     .copy p {
-      max-width: 55.9vw;
+      max-width: 72vw;
       font-size: 2.6vw;
+    }
+    .copy p strong { 
+      font-size: 4.9vw;
     }
   }
 
