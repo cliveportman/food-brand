@@ -89,9 +89,9 @@
   }
   
   article.left p, article.right p {
-    margin-bottom: 6vw;
+    margin: 0 auto 6vw;  width: 43vw;
     font-family: "Hamilton"; text-transform: none; text-align: left;
-    letter-spacing: -0.03em; line-height: 1em; font-size: 6vw; font-weight: 300;
+    letter-spacing: -0.03em; line-height: 1em; font-size: 5vw; font-weight: 300;
     
   }
   article.left p a, article.right p a {
@@ -127,7 +127,7 @@
   
   
   article.left p, article.right p {
-    margin-bottom: 2vw;
+    margin-bottom: 2vw; width: auto;
     font-family: "Hamilton"; text-transform: none; text-align: left;
     letter-spacing: -0.03em; line-height: 1em; font-size: 2.5vw; font-weight: 300;
     
@@ -167,10 +167,10 @@
   
   #raisedsofar {
     padding: 1vw 0; margin-bottom: 4vw;
-    display: flex; justify-content: space-between; align-items: center
+    display: flex; justify-content: center; align-items: center
   }
   #raisedsofar p {
-    padding-right: 2vw;
+    padding-right: 0; margin-left: 0; margin-right: 0; width: 38vw;
     margin-bottom: 0; text-transform: uppercase; font-size: 7.2vw;
   }
   #raisedsofar p span {
@@ -187,6 +187,7 @@
   }
 
   @media (min-width: 768px) {
+    #raisedsofar { justify-content: space-between;   }
     #raisedsofar-filler img { width: 10vw; }
   }
   
@@ -211,7 +212,8 @@
     margin-bottom: 2vw;
   }
   #raisedsofar p {
-    font-size: 2.5vw;
+    width: auto; margin: 0;
+    font-size: 2.5vw; padding-right: 2vw;
   }
   #raisedsofar p strong {
     display: block; font-size: 5.6vw; line-height: 0.9em;
