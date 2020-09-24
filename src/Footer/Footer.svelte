@@ -72,7 +72,7 @@
 #footer-contact {}
 #footer-contact h2 {
   margin-bottom: 3vw;
-  font-family: 'Hamilton'; font-size: 4.8vw;
+  font-family: 'Hamilton'; font-size: 4.8vw;line-height: 1em;
   color: #ffffff;
 }
 #footer-contact p {
@@ -101,7 +101,7 @@
 }
 #footer-social h2 {
   margin-bottom: 3.6vw;
-  font-family: 'Hamilton'; font-size: 2vw;
+  font-family: 'Hamilton'; font-size: 2vw;line-height: 1em;
   color: #ffffff;
 }
 

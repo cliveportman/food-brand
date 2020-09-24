@@ -261,7 +261,7 @@ article.right h2 .three strong {
   background: #FFD700;
 }
 :global(#raisedsofar-fill.aos-animate) {
-  height: calc(50% * 0.9);
+  height: calc(90% * 0.9);
 }
 
 </style>
