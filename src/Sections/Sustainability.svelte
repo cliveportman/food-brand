@@ -1,3 +1,8 @@
+<script>
+  const fundraisingJson = './jsfwperf.json';
+</script>
+
+
 <section id="sustainability">
 
   <div class="articles">
@@ -213,14 +218,6 @@ article.right h2 .three strong {
   position: relative; z-index: 5; margin-bottom: 0;
 }
 
-:global(#raisedsofar-fill) {
-  position: absolute; bottom: 1px; left: 0; right: 1px; z-index: 4;
-  height: 0;
-  background: #FFD700;
-}
-:global(#raisedsofar-fill.aos-animate) {
-  height: calc(50% *0.9);
-}
 
 @media (min-width: 768px) {
 article.right h2 {
@@ -251,6 +248,20 @@ article.right h2 .three strong {
   position: relative; width: auto; align-items: flex-start
 }
 
+}
+
+
+
+
+
+
+:global(#raisedsofar-fill) {
+  position: absolute; bottom: 1px; left: 0; right: 1px; z-index: 4;
+  height: 0;
+  background: #FFD700;
+}
+:global(#raisedsofar-fill.aos-animate) {
+  height: calc(50% * 0.9);
 }
 
 </style>
