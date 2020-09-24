@@ -77,13 +77,13 @@
     }
 
     #splash-fibre {
-      position: absolute; left: -1vw; margin-top: 7vw;
-      width: 16.9vw;
+      position: absolute; left: -1vw; margin-top: -7vw;
+      width: 13.4vw;
     }
 
     #splash-vegans {
-      position: absolute; left: 9.1vw; margin-top: 22.7vw;
-      width: 15.6vw;
+      position: absolute; left: 8vw; margin-top: 4vw;
+      width: 12vw;
     }
 
 
