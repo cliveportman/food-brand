@@ -47,8 +47,19 @@
       </div>   
   </div>
 
+  <ul id="footer-links">
+        
+    <li><a href="https://cheeky-ps.myshopify.com/pages/delivery-returns">Delivery &amp; Returns</a></li>
+  
+    <li><a href="https://cheeky-ps.myshopify.com/pages/privacy-policy">Privacy Policy</a></li>
+  
+    <li><a href="https://cheeky-ps.myshopify.com/pages/terms-conditions">Terms &amp; Conditions</a></li>
+  
+</ul>
+
   <a href="https://cheeky-ps.myshopify.com/" id="footer-shoplink" ><img  src="/img/footer-packet.svg" alt="Shop now"data-aos="fade-left" data-aos-delay="300" data-aos-duration="400"></a>
 
+  <img id="payment-logos" src="/img/payment-logos.svg" alt="Visa, Mastercard, PayPal, American Express">
 </footer>
 
 
@@ -156,5 +167,59 @@ a:active svg path, a:hover svg path, a:focus svg path {
 #footer-shoplink img {
   width: 100%;
 }
+}
+
+
+#payment-logos {
+  position: absolute;
+    right: 7vw;
+    bottom: 7vw;
+    width: 30vw;
+}
+
+
+@media (min-width: 768px) {
+#payment-logos {
+  position: absolute;
+    right: 7vw;
+    top: 2vw; bottom: auto;
+    width: 10vw;
+}
+}
+
+
+
+
+
+
+
+
+
+#footer-links {
+  list-style-type: none;
+}
+#footer-links li {
+  
+    margin-bottom: 0.5vw;
+    font-family: "Hamilton";
+    font-size: 1.4vw;
+    line-height: 1em;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  font-family: 'Hamilton'; font-size: 1.8vw;
+  
+}
+#footer-links li a {
+  text-decoration: none; color: #ffffff;
+}
+#footer-link a:focus, #footer-link a:hover, #footer-link a:active {
+  color: #FED500;
+}
+@media (min-width: 768px) {
+  #footer-links {
+	margin-left: 6.5vw;
+  }
 }
 </style>
