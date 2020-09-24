@@ -9,7 +9,7 @@
   
   
 :global(#raisedsofar-fill) {
-  position: absolute; bottom: 1px; left: 0; right: 1px; z-index: 4;
+  position: absolute; bottom: 1px; left: 1px; right: 1px; z-index: 4;
   height: 0;
   background: #FFD700;
 }
@@ -183,7 +183,11 @@
     position: relative; width: 22vw; align-items: flex-start
   }
   #raisedsofar-filler img {
-    position: relative; z-index: 5; margin-bottom: 0;
+    position: relative; z-index: 5; margin-bottom: 0; height: 22vw;
+  }
+
+  @media (min-width: 768px) {
+    #raisedsofar-filler img { width: 10vw; }
   }
   
   
