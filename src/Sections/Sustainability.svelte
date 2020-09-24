@@ -183,7 +183,7 @@
     position: relative; width: 22vw; align-items: flex-start
   }
   #raisedsofar-filler img {
-    position: relative; z-index: 5; margin-bottom: 0; height: 22vw;
+    position: relative; z-index: 5; margin-bottom: 0; width: 22vw;
   }
 
   @media (min-width: 768px) {
