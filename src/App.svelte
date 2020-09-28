@@ -12,14 +12,14 @@
   onMount(() => {
       mounted = true;
       if (aosReady) {
-        setTimeout(initAos(), 2000);
+        setTimeout(initAos(), 1500);
       }
   });
 
   function aosLoaded() {
       aosReady = true;
       if (mounted) {
-        setTimeout(initAos(), 2000);
+        setTimeout(initAos(), 1500);
       }
   }
 
