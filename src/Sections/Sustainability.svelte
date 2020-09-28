@@ -90,7 +90,7 @@
   
   article.left p, article.right p {
     margin: 0 auto 6vw;  width: 43vw;
-    font-family: "Hamilton"; text-transform: none; text-align: left;
+    font-family: "Hamilton"; text-transform: none; text-align: center;
     letter-spacing: -0.03em; line-height: 1em; font-size: 5vw; font-weight: 300;
     
   }
