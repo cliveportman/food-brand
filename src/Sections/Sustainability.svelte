@@ -128,8 +128,8 @@
   
   article.left p, article.right p {
     margin-bottom: 2vw; width: auto;
-    font-family: "Hamilton"; text-transform: none; text-align: left;
-    letter-spacing: -0.03em; line-height: 1em; font-size: 2.5vw; font-weight: 300;
+    font-family: "Abel"; text-transform: none; text-align: left;
+    letter-spacing: -0.03em; line-height: 1.2em; font-size: 2vw; font-weight: 300;
     
   }
   article.left p a, article.right p a {
@@ -170,7 +170,7 @@
     display: flex; justify-content: center; align-items: center
   }
   #raisedsofar p {
-    padding-right: 0; margin-left: 0; margin-right: 0; width: 38vw;
+    padding-right: 0; margin-left: 0; margin-right: 0; width: 38vw; font-family: Hamilton;
     margin-bottom: 0; text-transform: uppercase; font-size: 7.2vw;
   }
   #raisedsofar p span {
