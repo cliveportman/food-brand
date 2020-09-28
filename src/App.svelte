@@ -17,7 +17,6 @@
   });
 
   function aosLoaded() {
-      // The external Stripe javascript is ready.
       aosReady = true;
       if (mounted) {
           initAos();
@@ -26,7 +25,7 @@
 
   function initAos() {
     AOS.init({
-      useClassNames: true,
+      useClassNames: true
     });
   }
 
@@ -43,7 +42,6 @@
 </script>
 
 <div class="container">
-  <div class="spacer left"></div>
   <main>
     <Header />
     <Splash />
@@ -52,7 +50,6 @@
     <Stockists />
     <Contacts />
   </main>
-  <div class="spacer right"></div>
 </div>
 <Footer />
 
@@ -60,6 +57,7 @@
 
   main {
     flex: 1;
+    margin: 0 7vw;
     background: #F0EEE8;
   }
   
