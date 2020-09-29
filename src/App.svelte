@@ -57,6 +57,7 @@
 
   main {
     flex: 1;
+    width: 84vw;
     margin: 0 7vw;
     background: #F0EEE8;
   }
