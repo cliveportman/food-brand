@@ -10,7 +10,7 @@ function scrollTo(id) {
   }
 </script>
 
-<nav>
+<nav data-aos="zoom-in" data-aos-delay="2000">
   <a href="#our-products" class="medium"on:click|preventDefault="{() => scrollTo('#our-products')}">Products</a>
   <a href="#our-story" class="light"on:click|preventDefault="{() => scrollTo('#our-story')}">Our Story</a>
   <a href="#sustainability" class="medium"on:click|preventDefault="{() => scrollTo('#sustainability')}">Sustainability</a>
