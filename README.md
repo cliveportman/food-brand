@@ -1,104 +1,22 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Cheeky P's
 
----
+## Updating the fundraising figure
 
-# svelte app
+## Updating Shopify products
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+### Description
+The left-hand button has various levels of text (Paragraph, Heading 1-6).
+We are only using Heading 2 and Paragraphs. You can create line-breaks without starting a new paragraph by using a soft-return. On Windows, that's CTRL+ENTER. On a Mac, it's probably CMD+ENTER.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+### Tags
+We use the tags for two things:
+1. The background colour of the product page.
+2. Ingredients and Nutrition Info.
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+For the background colour, your options are `orange`, `yellow`, `teal` and `red`. These are the only tags we're prepared for so don't use any other colours. They should be lower-case and spelt correctly.
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+For the Ingredients and Nutrition Info, the tags are a shortened version of the flavour, all in lowercase. In the Nutrition Info and Ingredients templates we look for this tag and display the appropriate details. These tags must match the tags used in the `Snippets > NutritionInfo.liquid` and `Snippets > Ingredients` templates in the theme's code editor.
 
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
-```bash
-npm run build
-```
-
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
-
-
-## Single-page app mode
-
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
-
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
-
-```js
-"start": "sirv public --single"
-```
-
-## Using TypeScript
-
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
-
-```bash
-node scripts/setupTypeScript.js
-```
-
-Or remove the script via:
-
-```bash
-rm scripts/setupTypeScript.js
-```
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+### Editing the code
+Go to `Online Store > Themes` and nfind the current theme's Actions button. Click on that and select Edit Code.
+I strongly recommend you duplicate the current theme and give the duplicate a good name. Have a look at the names I've used. Then make your changes to the duplicate before publishing the duplicate to be your store's theme.
