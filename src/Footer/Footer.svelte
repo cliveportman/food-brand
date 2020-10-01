@@ -57,7 +57,7 @@
   
 </ul>
 
-  <a href="https://cheeky-ps.myshopify.com/" id="footer-shoplink" ><img  src="/img/footer-packet.svg" alt="Shop now"data-aos="fade-left" data-aos-delay="300" data-aos-duration="400"></a>
+  <a href="https://cheeky-ps.myshopify.com/" id="footer-shoplink" ><img  src="/img/footer-packet.svg" alt="Shop now"></a>
 
   <img id="payment-logos" src="/img/payment-logos.svg" alt="Visa, Mastercard, PayPal, American Express">
 </footer>

@@ -233,12 +233,12 @@
   <div class="articles">
 
     <article class="left">
-      <h2 data-aos="fade-up">
+      <h2>
         <span class="one">We <strong>Only</strong> use</span>
         <span class="two"><strong>sustainably</strong></span>
         <span class="three">sourced palm oil</span>
       </h2>
-      <p data-aos="fade-up">Although palm oil has received its
+      <p>Although palm oil has received its
         fair share of bad press, we strongly
         believe that sustainably sourced
         palm oil is currently still the way to
@@ -253,22 +253,22 @@
 
 
     <article class="right">
-      <h2 data-aos="fade-up" data-aos-delay="50">
+      <h2 data-aos-delay="50">
         <span class="one"><strong>Every pack</strong></span>
         <span class="two">purchased helps</span>
         <span class="three"><strong>plant trees</strong></span>
       </h2>
-      <p data-aos="fade-up" data-aos-delay="50">Purchase a case of Cheeky P's and we'll
+      <p data-aos-delay="50">Purchase a case of Cheeky P's and we'll
         donate £1 to WLT's Plant A Tree project
         to help restore forests for wildlife</p>
-      <div id="raisedsofar" data-aos="fade-up" data-aos-delay="50">
+      <div id="raisedsofar" data-aos-delay="50">
         <p>So far, we've raised <strong>£4,900</strong> <span>of our £10,000 target</span></p>
         <div id="raisedsofar-filler">
           <div id="raisedsofar-fill" data-aos="fill-up" data-aos-delay="300" data-aos-duration="1000"></div>
           <img src="/img/empty-chickpea.svg" alt="">
         </div>
       </div>
-      <p data-aos="fade-up" data-aos-delay="50">To find out more or make a direct contribution, <a href="#" target="_blank">please click here.</a></p>
+      <p>To find out more or make a direct contribution, <a href="#" target="_blank">please click here.</a></p>
       </article>
   </div>
 
