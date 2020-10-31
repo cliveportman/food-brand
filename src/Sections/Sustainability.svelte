@@ -3,7 +3,7 @@
 :global(#raisedsofar-fill.aos-animate) {
 
   /* THIS IS THE ALL IMPORTANT LINE. UPDATE THE PERCENTAGE ONLY */
-  height: calc(50% * 0.9);
+  height: calc(0% * 0.9);
 
 }
   
