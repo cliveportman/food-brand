@@ -15,7 +15,7 @@ function scrollTo(id) {
   <a href="#our-story" class="light"on:click|preventDefault="{() => scrollTo('#our-story')}">Our Story</a>
   <a href="#sustainability" class="medium"on:click|preventDefault="{() => scrollTo('#sustainability')}">Sustainability</a>
   <a href="#our-stockists" class="light"on:click|preventDefault="{() => scrollTo('#our-stockists')}">Stockists</a>
-  <a href="https://cheeky-ps.myshopify.com/" class="bold">Shop</a>
+  <a href="https://shop.cheekyps.co.uk/" class="bold">Shop</a>
 </nav>
 
   

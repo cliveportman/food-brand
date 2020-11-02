@@ -49,15 +49,15 @@
 
   <ul id="footer-links">
         
-    <li><a href="https://cheeky-ps.myshopify.com/pages/delivery-returns">Delivery &amp; Returns</a></li>
+    <li><a href="https://shop.cheekyps.co.uk/pages/delivery-returns">Delivery &amp; Returns</a></li>
   
-    <li><a href="https://cheeky-ps.myshopify.com/pages/privacy-policy">Privacy Policy</a></li>
+    <li><a href="https://shop.cheekyps.co.uk/pages/privacy-policy">Privacy Policy</a></li>
   
-    <li><a href="https://cheeky-ps.myshopify.com/pages/terms-conditions">Terms &amp; Conditions</a></li>
+    <li><a href="https://shop.cheekyps.co.uk/pages/terms-conditions">Terms &amp; Conditions</a></li>
   
 </ul>
 
-  <a href="https://cheeky-ps.myshopify.com/" id="footer-shoplink" ><img  src="/img/footer-packet.svg" alt="Shop now"></a>
+  <a href="https://shop.cheekyps.co.uk/" id="footer-shoplink" ><img  src="/img/footer-packet.svg" alt="Shop now"></a>
 
   <img id="payment-logos" src="/img/payment-logos.svg" alt="Visa, Mastercard, PayPal, American Express">
 </footer>
