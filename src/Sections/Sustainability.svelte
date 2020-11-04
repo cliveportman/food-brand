@@ -268,7 +268,7 @@
           <img src="/img/empty-chickpea.svg" alt="">
         </div>
       </div>
-      <p>To find out more or make a direct contribution, <a href="#" target="_blank">please click here.</a></p>
+      <p>To find out more or make a direct contribution, <a href="https://www.worldlandtrust.org/appeals/plant-a-tree/" target="_blank">please click here.</a></p>
       </article>
   </div>
 
