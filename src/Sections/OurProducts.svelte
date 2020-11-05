@@ -11,13 +11,13 @@
 
   <div class="products">
     
-    <a href="#" class="product" data-aos="fade-up">
+    <a href="https://shop.cheekyps.co.uk/collections/home-page/products/bar-b-que-12x50g" class="product" data-aos="fade-up">
       <img class="product-thumb" src="/img/cheeky-ps-barbque.jpg" alt="Cheeky P's bar-b-que">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
     </a>
     
-    <a href="#" class="product" data-aos="fade-up" data-aos-delay="50">
+    <a href="https://shop.cheekyps.co.uk/collections/home-page/products/cheese-12x50g" class="product" data-aos="fade-up" data-aos-delay="50">
       <img class="product-thumb" src="/img/cheeky-ps-cheese.jpg" alt="Cheeky P's cheese">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
@@ -29,7 +29,7 @@
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
     </a>
     
-    <a href="#" class="product" data-aos="fade-up" data-aos-delay="150">
+    <a href="https://shop.cheekyps.co.uk/collections/home-page/products/chilli-lime-12x50g" class="product" data-aos="fade-up" data-aos-delay="150">
       <img class="product-thumb" src="/img/cheeky-ps-chilli-lime.jpg" alt="Cheeky P's chilli & lime">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
