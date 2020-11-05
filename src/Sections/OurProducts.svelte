@@ -23,7 +23,7 @@
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
     </a>
     
-    <a href="#" class="product" data-aos="fade-up" data-aos-delay="100">
+    <a href="https://shop.cheekyps.co.uk/collections/home-page/products/curry-12x50g" class="product" data-aos="fade-up" data-aos-delay="100">
       <img class="product-thumb" src="/img/cheeky-ps-curry.jpg" alt="Cheeky P's curry">
       <button>Buy now</button>
       <img class="shadow" src="/img/packet-shadow.svg" alt="">
