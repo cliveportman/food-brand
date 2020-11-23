@@ -1,14 +1,23 @@
+<script>
+  import SainsburysModal from '../Components/_sainsburysModal.svelte'
+  let showSainsburysModal = false
+</script>
+
 <section id="our-stockists">
 
-  <h1 data-aos="fade-up">Find the horde</h1>
+  <h1>Find the horde</h1>
   <div class="stockists col3">
-    <img src="/img/ocado.png" alt="" data-aos="fade-up">
-    <img src="/img/amazon.png" alt="" data-aos="fade-up" data-aos-delay="50">
-    <img src="/img/nisa.png" alt="" data-aos="fade-up" data-aos-delay="100">
+    <img src="/img/ocado.png" alt="">
+    <img src="/img/amazon.png" alt="">
+    <img src="/img/nisa.png" alt="">
+    <a href="https://www.sainsburys.co.uk/gol-ui/SearchDisplayView?filters[keyword]=Cheeky%20P%27s&&langId=44&storeId=10151&searchType=2&searchTerm=Cheeky%20P%27s"><img src="/img/sainsburys.svg" class="sainsburys" alt=""></a>
   </div>
-  <p>& many more independents!</p>
+  <a on:click|preventDefault="{ () => { showSainsburysModal = true }}" href="#" class="sainsburyslist">View list of Sainsbury's stores</a>
 
 </section>
+
+<SainsburysModal bind:display="{showSainsburysModal}"/>
+
 
 <style>
 
@@ -47,21 +56,32 @@ h1:before {
 .stockists img {
   display: block;
   height: 10vw; width: auto;
+  
 }
-
+img.sainsburys {
+  margin-top: 4vw;
+  height: 7vw;
+}
 
 @media (min-width: 768px) {
   .stockists.col3 img {
     height: 11vw;
   }
+  .stockists.col3 img.sainsburys {
+    height: 7vw;
+  }
 }
 
 
-p {
+a.sainsburyslist {
   position: relative;
+  display: block; color: #1D1E1B;
   margin-top: 4vw;
   font-family: "Hamilton"; font-size: 6.4vw; text-transform: uppercase; line-height: 1em; text-align: center;
-  font-weight: 300; letter-spacing: -0.03em;
+  font-weight: 300; letter-spacing: -0.03em; text-decoration: underline;
+}
+a.sainsburyslist:hover {
+  color: #f47320; cursor: pointer;
 }
 
 </style>
