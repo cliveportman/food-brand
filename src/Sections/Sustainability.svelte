@@ -3,7 +3,7 @@
 :global(#raisedsofar-fill.aos-animate) {
 
   /* THIS IS THE ALL IMPORTANT LINE. UPDATE THE PERCENTAGE ONLY */
-  height: calc(15% * 0.9);
+  height: calc(18% * 0.9);
 
 }
   
@@ -262,7 +262,7 @@
         donate £1 to WLT's Plant A Tree project
         to help restore forests for wildlife</p>
       <div id="raisedsofar" data-aos-delay="50">
-        <p>So far, we've raised <strong>£250</strong> <span>of our £5,000 target</span></p>
+        <p>So far, we've raised <strong>£467</strong> <span>of our £5,000 target</span></p>
         <div id="raisedsofar-filler">
           <div id="raisedsofar-fill" data-aos="fill-up" data-aos-delay="300" data-aos-duration="1000"></div>
           <img src="/img/empty-chickpea.svg" alt="">
