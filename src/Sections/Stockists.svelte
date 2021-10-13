@@ -60,12 +60,15 @@ h1:before {
 
 .stockists img {
   display: block;
-  height: 10vw; width: auto;
+  height: 12vw; width: auto;
   margin: 0 0.5rem 2rem;
   
 }
 img.sainsburys {
   margin-top: 2vw; margin-bottom: 0;
+  height: 10vw;
+}
+img.hollandbarrett {
   height: 10vw;
 }
 img.booths {
