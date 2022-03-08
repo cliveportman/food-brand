@@ -262,7 +262,7 @@
         donate £1 to WLT's Plant A Tree project
         to help restore forests for wildlife</p>
       <div id="raisedsofar" data-aos-delay="50">
-        <p>So far, we've raised <strong>£579</strong> <span>of our £1,000 target</span></p>
+        <p>So far, we've raised <strong>£611</strong> <span>of our £1,000 target</span></p>
         <div id="raisedsofar-filler">
           <div id="raisedsofar-fill" data-aos="fill-up" data-aos-delay="300" data-aos-duration="1000"></div>
           <img src="/img/empty-chickpea.svg" alt="">
