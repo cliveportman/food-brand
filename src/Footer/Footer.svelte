@@ -7,7 +7,7 @@
       20-22 Wenlock Road,<br>
       London, N1 7GU<br>
       England<br>
-      +44 (0) 191 442 3832</p>
+      </p>
     <a href="mailto:hello@cheekyps.co.uk">hello@cheekyps.co.uk</a>
   </div>
 
