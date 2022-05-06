@@ -258,9 +258,7 @@
         <span class="two">purchased helps</span>
         <span class="three"><strong>plant trees</strong></span>
       </h2>
-      <p data-aos-delay="50">Purchase a case of Cheeky P's and we'll
-        donate £1 to WLT's Plant A Tree project
-        to help restore forests for wildlife</p>
+      <p data-aos-delay="50"></p>
       <div id="raisedsofar" data-aos-delay="50">
         <p>So far, we've raised <strong>£701</strong> <span>of our £1,000 target</span></p>
         <div id="raisedsofar-filler">
