@@ -12,7 +12,7 @@
     <img src="/img/nisa.png" alt="">
     <a target="_blank" href="https://www.hollandandbarrett.com/search/?isSearch=true&query=Cheeky%20P%27s"><img src="/img/holland-barrett.png" alt="Holland & Barratt" class="hollandbarrett"></a>
     <img src="/img/booths.png" alt="Booths" class="booths">
-    <a target="_blank" href="https://proteinpackage.co.uk/search?q=Cheeky+P%27s"><img src="/img/protein-package.png" class="protein" alt="Protein Package"></a>
+    <a target="_blank" href="https://proteinpackage.co.uk/collections/cheeky-ps-chickpeas"><img src="/img/protein-package.png" class="protein" alt="Protein Package"></a>
     <a target="_blank" href="https://thevegankind.com/search?query=Cheeky%20P%27s"><img src="/img/the-vegan-kind.svg" class="vegankind" alt="The Vegan Kind"></a>
     
     <a target="_blank" href="https://www.sainsburys.co.uk/gol-ui/SearchDisplayView?filters[keyword]=Cheeky%20P%27s&&langId=44&storeId=10151&searchType=2&searchTerm=Cheeky%20P%27s"><img src="/img/sainsburys.svg" class="sainsburys" alt=""></a>
