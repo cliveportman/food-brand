@@ -1,4 +1,4 @@
-# Pharma consultancy
+# Food brand site
 *FORMER CLIENT PROJECT - I believe the client no longer maintains this site*
 
 Product site for a food brand. [View the site here](https://goofy-jones-d86fd3.netlify.app/).
